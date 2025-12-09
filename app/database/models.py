@@ -7,3 +7,4 @@ class User(Base):
     email = Column(String, unique=True, index=True, nullable=False)
     mobile_number = Column(String, unique=True, index=True, nullable=False)
     hashed_password = Column(String, nullable=False)
+
